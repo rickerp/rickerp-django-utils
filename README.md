@@ -11,8 +11,8 @@ My django utils repo
 ## <a name="dict_to_Q"></a> Dict to Q object
 
 [dict_to_Q.py](./dict_to_Q.py)  
-Django function to convert a `dict` with filters (allows lookuos) to a `Q` object  
-Usefull when receiving **query params** in the URL (API)
+Django function to convert a `dict` with filters (allows lookups) to a `Q` object  
+Useful when receiving **query params** in the URL (API)
 
 **_function_** **dict_to_Q(filters_dict, valid_fields_operations=None, prefix='')**
 
